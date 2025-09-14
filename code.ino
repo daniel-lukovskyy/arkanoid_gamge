@@ -232,7 +232,7 @@ void setup(){
   send_data(MAX7219_ADDRESS_SHUTDOWN, 1);
   send_data(MAX7219_ADDRESS_DISPLAY_TEST, 0);
 
-  test();
+  //test();
 }
 
 void loop(){
